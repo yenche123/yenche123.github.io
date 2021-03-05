@@ -180,9 +180,18 @@ h3 {
 
 /** 适配宽屏（PC） */
 @media (min-width: 1280.8px) {
+
+    .first-container {
+        padding-top: 40px;
+    }
+
     .cover {
         margin-right: 60px;
         width: 600px;
         height: 398px;
+    }
+
+    .sc-main {
+        width: calc(660px + 20%);
     }
 }
