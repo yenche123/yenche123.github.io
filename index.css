@@ -1,6 +1,6 @@
 
 html {
-    font-family: sans-serif;
+    font-family: geneo-std, 'Georgia', source-han-serif-sc, 'Songti SC', serif;
 }
 
 a:link {
@@ -55,19 +55,19 @@ body {
 .first-hd {
     font-size: 24px;
     font-weight: 700;
-    color: #393939;
+    color: #1f1f1f;
     margin-bottom: 10px;
 }
 
 .first-a {
-    color: #a0a0a0;
+    color: #888888;
     font-size: 17px;
     margin-bottom: 30px;
     font-style: italic;
 }
 
 .first-school {
-    color: #a0a0a0;
+    color: #888888;
     font-size: 15px;
     margin-bottom: 8px;
     font-weight: 200;
@@ -92,7 +92,7 @@ body {
 .second-p {
     margin-bottom: 40px;
     width: 100%;
-    color: #a0a0a0;
+    color: #888888;
     font-size: 15px;
     font-weight: 200;
     line-height: 25px;
@@ -106,7 +106,7 @@ body {
 }
 
 h2 {
-    color: #666666;
+    color: #555555;
     font-size: 15px;
     margin-bottom: 16px;
     font-weight: 700;
@@ -114,7 +114,7 @@ h2 {
 
 .second-bar {
     display: flex;
-    color: #a0a0a0;
+    color: #888888;
     font-size: 15px;
     margin-bottom: 16px;
     font-weight: 400;
@@ -129,11 +129,11 @@ h2 {
     min-width: 8px;
     min-height: 8px;
     border-radius: 50%;
-    background: #bbbbbb;
+    background: #888888;
 }
 
 h3 {
-    color: #a0a0a0;
+    color: #888888;
     font-size: 15px;
     margin-bottom: 6px;
     font-weight: 400;
