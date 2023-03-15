@@ -3,6 +3,10 @@ html {
     font-family: geneo-std, 'Georgia', source-han-serif-sc, 'Songti SC', serif;
 }
 
+a{
+    word-wrap: break-word;
+}
+
 a:link {
     text-decoration: none;
 }
@@ -26,16 +30,22 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     padding-top: 20px;
+    position: relative;
+}
+
+.fc-main {
+    width: 86%;
+    max-width: 700px;
+    display: flex;
+    align-items: center;
     position: relative;
 }
 
 .cover {
     margin-right: 30px;
-    width: 500px;
-    height: 332px;
+    width: 266px;
     position: relative;
 }
 
@@ -81,8 +91,8 @@ body {
 }
 
 .sc-main {
-    width: calc(530px + 20%);
-    min-width: 600px;
+    width: 86%;
+    max-width: 700px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -109,6 +119,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    position: relative;
 }
 
 h2 {
@@ -120,12 +131,15 @@ h2 {
 
 .second-bar {
     display: flex;
+    align-items: flex-start;
     color: #888888;
     font-size: 17px;
     margin-bottom: 16px;
     font-weight: 400;
     position: relative;
     white-space: pre-wrap;
+    width: 100%;
+    max-width: 100%;
 }
 
 .second-circle {
@@ -137,7 +151,13 @@ h2 {
     min-height: 8px;
     border-radius: 50%;
     background: #888888;
+    flex: none;
 }
+
+.sb-special {
+    width: calc(100% - 20px);
+}
+
 
 h3 {
     color: #888888;
@@ -152,14 +172,14 @@ h3 {
 }
 
 /** 适配手机屏 */
-@media (max-width: 850px) {
-    .first-container {
+@media (max-width: 500px) {
+    .fc-main {
         flex-direction: column;
     }
 
     .cover {
         margin-right: 0px;
-        width: 86%;
+        width: 100%;
         height: auto;
         margin-bottom: 28px;
         position: relative;
@@ -172,11 +192,10 @@ h3 {
     }
 
     .first-box {
-        width: 86%;
+        width: 100%;
     }
     
     .sc-main {
-        width: 86%;
         min-width: 200px;
         position: relative;
         display: flex;
@@ -185,20 +204,3 @@ h3 {
     }
 }
 
-/** 适配宽屏（PC） */
-@media (min-width: 1280.8px) {
-
-    .first-container {
-        padding-top: 40px;
-    }
-
-    .cover {
-        margin-right: 60px;
-        width: 600px;
-        height: 398px;
-    }
-
-    .sc-main {
-        width: calc(660px + 20%);
-    }
-}
