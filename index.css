@@ -20,6 +20,11 @@ a:hover {
     text-decoration: none;
 }
 
+*::selection {
+    background-color: #aedcd9;
+    color: white;
+}
+
 
 body {
     background-color: #f9f9f9;
@@ -168,7 +173,7 @@ h3 {
 }
 
 .second-a {
-    color: #0058b9;
+    color: #23A296;
 }
 
 /** 适配手机屏 */
