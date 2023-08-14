@@ -132,6 +132,7 @@ h2 {
     font-size: 17px;
     margin-bottom: 16px;
     font-weight: 700;
+    line-height: 1.4;
 }
 
 .second-bar {
@@ -145,10 +146,11 @@ h2 {
     white-space: pre-wrap;
     width: 100%;
     max-width: 100%;
+    line-height: 1.5;
 }
 
 .second-circle {
-    margin-top: 7px;
+    margin-top: 8px;
     margin-right: 10px;
     width: 8px;
     height: 8px;

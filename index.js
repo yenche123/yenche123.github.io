@@ -1,3 +1,3 @@
 
-const VERSION = "v1.0.2"
-console.log(`当前版本号: ${VERSION}`)
+const VERSION = "v1.1.0"
+console.log(`Current Version: ${VERSION}`)
